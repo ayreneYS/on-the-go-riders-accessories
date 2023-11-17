@@ -293,6 +293,17 @@ body {
   .navbar ul {
     margin-right: 0;
   }
+  .about-img {
+    left: 4vh;
+  }
+  .about-text {
+    right: 0em;
+    margin: 15px 30px;
+  }
+  .members {
+    top: 41%;
+    right: 0em;
+  }
 }
 @media screen and (max-width: 768px) {
   .navbar {
