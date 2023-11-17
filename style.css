@@ -8,19 +8,16 @@ body {
   overflow: hidden;
 }
 #home {
-  background: url(img/background.jpg) no-repeat;
-  background-size: cover;
+  background: url(img/bg.jpg) no-repeat center/cover;
 }
 #about {
   background-color: #89bdbd;
 }
 #product {
-  background: url(img/product.jpg) no-repeat;
-  background-size: cover;
+  background: url(img/product.jpg) no-repeat bottom/cover;
 }
 #contact {
-  background: url(img/bg.png) no-repeat;
-  background-size: contain;
+  background: url(img/bg.png) no-repeat top/contain;
 }
 .wrapper {
   height: 100vh;
