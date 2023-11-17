@@ -4,11 +4,14 @@
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow: hidden;
 }
 #home {
-  background: url(img/bg.jpg) no-repeat center/cover;
+  background: url(img/bg3.jpg) no-repeat bottom/cover;
 }
 #about {
   background-color: #89bdbd;
@@ -83,6 +86,7 @@ body {
 }
 .right h1 {
   color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1);
   font-size: 70px;
   width: 550px;
   font-weight: bold;
@@ -93,6 +97,7 @@ body {
 }
 .right h3 {
   color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1);
   font-size: 35px;
   font-weight: bold;
   margin-top: 10px;
@@ -292,6 +297,10 @@ body {
   }
   .navbar ul {
     margin-right: 0;
+  }
+  .wrapper .right {
+    right: -20%;
+    top: 25%;
   }
   .about-img {
     left: 10vh;
