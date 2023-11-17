@@ -19,7 +19,7 @@ body {
   background-size: cover;
 }
 #contact {
-  background: url(img/contact-bg.png) no-repeat;
+  background: url(img/bg.png) no-repeat;
   background-size: contain;
 }
 .wrapper {
@@ -202,6 +202,7 @@ body {
   background-color: #edecedd6;
   display: flex;
   width: 100%;
+  height: auto;
   /* justify-content: space-between; */
 }
 .product-text {
@@ -238,6 +239,23 @@ body {
   padding: 5px;
   margin: 20px 40px;
 }
+@media screen and (max-width: 1450px) {
+  #product .container {
+    top: 20%;
+  }
+  .product-text {
+    margin-right: 30px;
+  }
+  .product-text p {
+    font-size: 2.2vh;
+    padding: 16px;
+    line-height: 3vh;
+  }
+  .product-img {
+    /* justify-content: space-between; */
+    padding-left: 3em;
+  }
+}
 
 /* ---------CONTACT---------- */
 
@@ -257,15 +275,6 @@ body {
   line-height: 1.5em;
 }
 
-/* #contact .container a {
-  position: absolute;
-  display: flex;
-  text-decoration: none;
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-} */
-
 #contact .soc-container {
   position: absolute;
   right: 3%;
@@ -277,4 +286,88 @@ body {
 #contact .soc-container img {
   width: 75px;
   padding: 15px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: auto;
+    text-align: center;
+  }
+
+  .navbar .logo {
+    padding: 10px;
+  }
+
+  .navbar .title {
+    margin-top: 10px;
+  }
+
+  .navbar ul {
+    margin: 10px 0;
+    float: none;
+  }
+
+  .navbar ul li {
+    display: block;
+    margin: 0;
+  }
+
+  .navbar ul li a {
+    padding: 10px;
+  }
+
+  .wrapper .right {
+    width: 90%;
+    right: 5%;
+  }
+
+  .about-img {
+    width: 100%;
+    left: 0;
+  }
+
+  .about-text {
+    width: 100%;
+    right: 0;
+  }
+
+  .members {
+    width: 100%;
+    right: 0;
+  }
+
+  .members-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .members-name {
+    width: 100%;
+  }
+
+  #product .container {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-text,
+  .product-img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .product-img img {
+    margin: 20px 0;
+  }
+
+  #contact .container {
+    width: 100%;
+    right: 0;
+  }
+
+  #contact .soc-container {
+    right: 0;
+  }
 }
