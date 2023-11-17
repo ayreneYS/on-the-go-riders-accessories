@@ -15,7 +15,7 @@ body {
   background-color: #89bdbd;
 }
 #product {
-  background: url(img/stoplight.jpg) no-repeat;
+  background: url(img/product.jpg) no-repeat;
   background-size: cover;
 }
 #contact {
@@ -137,7 +137,7 @@ body {
 
 .about-text {
   position: absolute;
-  width: 40em;
+  width: 46em;
   right: 6em;
   top: 0;
   margin: 30px;
@@ -159,10 +159,10 @@ body {
 .members {
   position: absolute;
   display: flex;
-  width: 43.8em;
-  right: 5.6em;
+  width: 50em;
+  right: 7em;
   top: 45%;
-  margin: 30px;
+  margin: 10px;
   /* background-color: #ffc0cb; */
   /* padding: 0 30px; */
 }
@@ -172,14 +172,14 @@ body {
   background-color: #0c7f82;
 }
 .members-img img {
-  width: 100px;
-  padding: 12px 30px;
+  width: 210px;
+  margin: 15px 0;
 }
 .members-name p {
   font-family: sans-serif;
   text-align: center;
   font-size: 1.5vh;
-  padding: 20px;
+  padding: 20px 11px;
   margin: 30px 20px;
   background-color: rgba(237, 236, 237, 0.589);
 }
@@ -297,35 +297,40 @@ body {
     margin-right: 0;
   }
   .about-img {
-    left: 15vh;
-    padding: 24px 35px;
+    left: 10vh;
+    padding: 40px 35px;
   }
   .about-text {
     right: 10vh;
-    margin: 5px 30px;
+    margin: 5px 10px;
   }
   .members {
-    top: 39%;
-    right: 10vh;
+    top: 36%;
+    right: 9vh;
   }
   .members-img img {
-    width: 90px;
-    padding: 12px 30px;
+    width: 220px;
+    padding: 0;
   }
   .members-name p {
     font-size: 1.7vh;
     padding: 15px;
-    margin: 30px;
+    margin: 40px 10px;
   }
+
+  .members-name .space {
+    margin-bottom: 100px;
+  }
+
   #product .container {
-    top: 10%;
+    top: 15%;
   }
   .product-text {
     margin-right: 30px;
   }
   .product-text p {
-    padding: 32px;
-    line-height: 3.55vh;
+    padding: 25.5px;
+    line-height: 3.5vh;
   }
   .product-img img {
     width: 130px;
